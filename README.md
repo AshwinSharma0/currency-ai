@@ -4,7 +4,7 @@ A modern, real-time currency converter web app with a premium fintech dashboard 
 
 🚀 Live Demo
 
-https://your-vercel-link.vercel.app
+https://currency-ai.vercel.app/
 
 ✨ Features
 
