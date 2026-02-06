@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CurrencyAI - Smart Global Currency Platform</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">💱 CurrencyAI</div>
+  <div class="tag">Smart Global Currency Platform</div>
+</nav>
+<!-- LIVE TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span>USD → INR: 83.12 ▲</span>
+    <span>EUR → INR: 89.40 ▲</span>
+    <span>GBP → INR: 104.21 ▼</span>
+    <span>JPY → INR: 0.56 ▲</span>
+    <span>AUD → INR: 54.32 ▲</span>
+    <span>CAD → INR: 61.11 ▼</span>
+  </div>
+</div>
+
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <h1>Convert Money Across The World <br> In Real Time</h1>
+  <p>AI powered live currency conversion with beautiful experience</p>
+</section>
+
+<!-- MAIN GLASS CARD -->
+<div class="main-card">
+
+  <h2>Live Currency Converter</h2>
+
+  <input type="number" id="amount" placeholder="Enter amount">
+
+  <div class="row">
+    <select id="fromCurrency"></select>
+
+    <button id="swap">⇄</button>
+
+    <select id="toCurrency"></select>
+  </div>
+
+  <button class="convert-btn" id="convertBtn" onclick="convertCurrency()">Convert Now</button>
+
+
+  <h3 id="result">Result will appear here</h3>
+  <p id="rate"></p>
+  <!-- 🤖 AI PREDICTION PANEL -->
+<div class="ai-box">
+  <h3>🤖 CurrencyAI Prediction</h3>
+  <p id="aiText">Analyzing global market...</p>
+</div>
+
+
+</div>
+<div class="history">
+<h3>Recent Conversions</h3>
+<ul id="historyList"></ul>
+</div>
+
+
+<!-- floating glow -->
+<div class="blob"></div>
+<div class="blob2"></div>
+<!-- 🪙 FLOATING COINS -->
+<div class="coin coin1">💰</div>
+<div class="coin coin2">🪙</div>
+<div class="coin coin3">💵</div>
+<div class="coin coin4">💶</div>
+<div class="coin coin5">💷</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
