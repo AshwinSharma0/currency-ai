@@ -49,19 +49,20 @@ font-size:22px;
 
 /* 🔥 BIG DASHBOARD CARD */
 .main-card{
-width:88%;
-max-width:720px;   /* 👈 final perfect size */
-margin:50px auto;
-padding:45px;
-border-radius:28px;
+width:85%;
+max-width:650px;   /* 👈 perfect professional size */
+margin:40px auto;
+padding:38px;
+border-radius:26px;
 background:rgba(255,255,255,0.07);
 backdrop-filter:blur(40px);
-box-shadow:0 25px 80px rgba(0,0,0,0.8);
+box-shadow:0 25px 70px rgba(0,0,0,0.7);
 text-align:center;
 position:relative;
 z-index:2;
 transition:0.3s;
 }
+
 
 
 
@@ -77,15 +78,16 @@ font-size:32px;
 /* INPUT */
 input{
 width:100%;
-padding:32px;
-margin-bottom:35px;
+padding:18px;
+margin-bottom:20px;
 border:none;
-border-radius:22px;
-font-size:26px;
+border-radius:14px;
+font-size:18px;
 outline:none;
 background:white;
 color:black;
 }
+
 
 /* ROW */
 .row{
@@ -138,15 +140,16 @@ box-shadow:0 0 30px #9d00ff;
 /* CONVERT BUTTON */
 .convert-btn{
 width:100%;
-padding:30px;
+padding:18px;
 border:none;
-border-radius:20px;
-font-size:26px;
+border-radius:14px;
+font-size:20px;
 cursor:pointer;
 background:linear-gradient(45deg,#00f7ff,#9d00ff);
 color:white;
-transition:0.4s;
+transition:0.3s;
 }
+
 
 .convert-btn:hover{
 transform:scale(1.05);
