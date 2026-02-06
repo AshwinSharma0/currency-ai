@@ -49,20 +49,21 @@ font-size:22px;
 
 /* 🔥 BIG DASHBOARD CARD */
 .main-card{
-width:85%;
-max-width:1300px;
-min-height:560px;
-margin:70px auto;
-padding:90px;
-border-radius:34px;
+width:90%;
+max-width:900px;      /* 👈 perfect limit */
+min-height:auto;
+margin:60px auto;
+padding:50px;
+border-radius:30px;
 background:rgba(255,255,255,0.07);
 backdrop-filter:blur(40px);
-box-shadow:0 40px 120px rgba(0,0,0,0.85);
+box-shadow:0 30px 100px rgba(0,0,0,0.8);
 text-align:center;
 position:relative;
 z-index:2;
 transition:0.4s;
 }
+
 
 .main-card:hover{
 transform:translateY(-10px) scale(1.01);
